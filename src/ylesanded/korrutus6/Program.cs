@@ -9,6 +9,7 @@ namespace korrutus6
     class Program
     {
         static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             for (int n = 1; n < 7; n++)
             {
@@ -16,6 +17,20 @@ namespace korrutus6
             }
 
                 Console.ReadLine();
+        }*/
+
+        static void Main(string[] args)
+        {
+            for (int n = 1; n < 7; n++)
+            {
+                for (int j = 1; j < 7; j++)
+                {
+                    Console.Write($"{n * j}\t");
+                }
+                Console.WriteLine();
+
+            }
+            Console.ReadLine();
         }
     }
 }
