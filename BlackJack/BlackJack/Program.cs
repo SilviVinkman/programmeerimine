@@ -11,7 +11,7 @@ namespace BlackJack
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the game of BlackJack!");
-            Console.WriteLine("Press any key");
+            Console.WriteLine("Press any key  ");
             Console.ReadLine();
             //Kaartide valik juhusliku valikuga:           
             Random rnd = new Random();
