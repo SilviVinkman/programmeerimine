@@ -11,6 +11,8 @@ namespace G_H_desk_katse2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
+            Console.WriteLine("Ma tulen");
+
             Console.WriteLine("Press any key to continue");
             Console.ReadLine();
         }
